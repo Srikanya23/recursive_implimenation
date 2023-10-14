@@ -10,6 +10,3 @@ def Binary_search(arr,tar,l,r):
             return Binary_search(arr,tar,l,mid) 
     else :
         return -1
-arr = [2, 3, 4, 10, 40]
-tar= 1
-print(Binary_search(arr,tar,0,len(arr)))

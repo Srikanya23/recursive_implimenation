@@ -4,6 +4,3 @@ def Fibonacci(n):
         return n
     else :
         return Fibonacci(n-1)+Fibonacci(n-2)
-
-        
-print(Fibonacci(10))

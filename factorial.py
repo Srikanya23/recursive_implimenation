@@ -4,4 +4,3 @@ def Factorial(num):
     else :
         temp = num * Factorial(num-1)
     return temp
-print(Factorial(100))
